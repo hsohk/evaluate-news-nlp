@@ -29,3 +29,4 @@ Tools which are used in this project
     ```
     - `npm run build-dev` for development
     - `npm run build-prod` for production  
+    - `npm runt test` for test
