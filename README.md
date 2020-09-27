@@ -11,7 +11,7 @@ Tools which are used in this project
     - `CleanWebpackPlugin`
     - `MiniCssExtractPlugin`
     - `WorkboxPlugin`
-- Externel API
+- External API
     - meaningcloud
         - API_KEY/API_URL is set with .env
 
@@ -20,3 +20,12 @@ Tools which are used in this project
         dotenv.config();
         console.log(`Your API KEY is ${process.env.API_KEY}`);
         ```
+- Usage
+    - npm i
+    - create .env file in root directory
+    - add API_KEY in .env file
+    ```
+    API_KEY=xxxxxxxxxxxxxxxxxxxx
+    ```
+    - `npm run build-dev` for development
+    - `npm run build-prod` for production  

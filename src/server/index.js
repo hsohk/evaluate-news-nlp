@@ -1,3 +1,4 @@
+const API_URL = 'https://api.meaningcloud.com/sentiment-2.1'
 var path = require('path')
 const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
@@ -19,7 +20,6 @@ app.get('/', function (req, res) {
 // designates what port the app will listen to for incoming requests
 app.listen(8081, function () {
     console.log('Example app listening on port 8081!');
-    console.log(`Your API KEY is ${process.env.API_KEY}`);
 })
 
 app.get('/test', function (req, res) {
@@ -38,7 +38,7 @@ const fetch = require("node-fetch");
 
 const postText = async (address)=>{
     const res = await fetch(
-        process.env.API_URL,
+        API_URL,
         {
             method: 'POST',
             credentials: 'same-origin',
