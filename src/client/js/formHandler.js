@@ -10,6 +10,7 @@ function handleSubmit(event) {
         console.log("::: Form Submitted :::")
         const APIURL = process.env.API_ID;
         const APIKEY = process.env.API_KEY;
+        document.getElementById("overlay").style.display = "block";
         fetch(`http://localhost:8081/sentiment?url=${formText}`)
             .then(res => res.json())
             .then(function (res) {
@@ -21,10 +22,10 @@ function handleSubmit(event) {
                 document.getElementById('subjectivity').innerHTML = `Subjectivity : ${res.subjectivity}`;
                 document.getElementById('model').innerHTML = `Model : ${res.model}`;
             })
+            .then(()=>{document.getElementById("overlay").style.display = "none";})
     } else {
         alert("Address has to start with HTTP/HTTPS")
     }
-
 }
 
 export { handleSubmit }

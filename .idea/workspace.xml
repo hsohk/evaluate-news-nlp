@@ -44,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601159311573</updated>
-      <workItem from="1601159312783" duration="12981000" />
+      <workItem from="1601159312783" duration="19354000" />
     </task>
     <servers />
   </component>
@@ -60,22 +60,22 @@
       <screen x="80" y="23" width="3280" height="1867" />
     </state>
     <state x="2211" y="710" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/80.23.3280.1867@80.23.3280.1867" timestamp="1601164055004" />
-    <state width="1719" height="554" key="GridCell.Tab.0.bottom" timestamp="1601167925963">
+    <state width="1626" height="343" key="GridCell.Tab.0.bottom" timestamp="1601191565142">
       <screen x="80" y="23" width="3280" height="1867" />
     </state>
-    <state width="1719" height="554" key="GridCell.Tab.0.bottom/80.23.3280.1867@80.23.3280.1867" timestamp="1601167925963" />
-    <state width="1719" height="554" key="GridCell.Tab.0.center" timestamp="1601167925962">
+    <state width="1626" height="343" key="GridCell.Tab.0.bottom/80.23.3280.1867@80.23.3280.1867" timestamp="1601191565142" />
+    <state width="1626" height="343" key="GridCell.Tab.0.center" timestamp="1601191565140">
       <screen x="80" y="23" width="3280" height="1867" />
     </state>
-    <state width="1719" height="554" key="GridCell.Tab.0.center/80.23.3280.1867@80.23.3280.1867" timestamp="1601167925962" />
-    <state width="1719" height="554" key="GridCell.Tab.0.left" timestamp="1601167925962">
+    <state width="1626" height="343" key="GridCell.Tab.0.center/80.23.3280.1867@80.23.3280.1867" timestamp="1601191565140" />
+    <state width="1626" height="343" key="GridCell.Tab.0.left" timestamp="1601191565139">
       <screen x="80" y="23" width="3280" height="1867" />
     </state>
-    <state width="1719" height="554" key="GridCell.Tab.0.left/80.23.3280.1867@80.23.3280.1867" timestamp="1601167925962" />
-    <state width="1719" height="554" key="GridCell.Tab.0.right" timestamp="1601167925962">
+    <state width="1626" height="343" key="GridCell.Tab.0.left/80.23.3280.1867@80.23.3280.1867" timestamp="1601191565139" />
+    <state width="1626" height="343" key="GridCell.Tab.0.right" timestamp="1601191565141">
       <screen x="80" y="23" width="3280" height="1867" />
     </state>
-    <state width="1719" height="554" key="GridCell.Tab.0.right/80.23.3280.1867@80.23.3280.1867" timestamp="1601167925962" />
+    <state width="1626" height="343" key="GridCell.Tab.0.right/80.23.3280.1867@80.23.3280.1867" timestamp="1601191565141" />
     <state width="1719" height="554" key="GridCell.Tab.1.bottom" timestamp="1601167925964">
       <screen x="80" y="23" width="3280" height="1867" />
     </state>
@@ -124,5 +124,17 @@
       <screen x="80" y="23" width="3280" height="1867" />
     </state>
     <state width="1719" height="554" key="GridCell.Tab.3.right/80.23.3280.1867@80.23.3280.1867" timestamp="1601167925965" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/client/js/formHandler.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

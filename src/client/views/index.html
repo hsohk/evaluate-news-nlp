@@ -3,21 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Test</title>
-<!--        <link rel="stylesheet" href="/styles/resets.css">-->
-<!--        <link rel="stylesheet" href="/styles/base.css">-->
-<!--        <link rel="stylesheet" href="/styles/header.css">-->
-<!--        <link rel="stylesheet" href="/styles/form.css">-->
-<!--        <link rel="stylesheet" href="/styles/footer.css">-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     </head>
 
     <body>
 
         <header>
             <div class="">
-                Logo
-            </div>
-            <div class="">
-                navigation
+                Udacity Project
             </div>
         </header>
 
@@ -30,7 +23,10 @@
             <section>
 
             <section>
-                <strong>Analysis Results:</strong>
+                <strong><h1>Analysis Results:</h1></strong>
+                <div id="overlay" onclick="off()">
+                    <div id="text">Please Wait.....</div>
+                </div>
                 <div id="subjectivity"></div>
                 <div id="agreement"></div>
                 <div id="confidence"></div>
@@ -42,8 +38,13 @@
         </main>
 
         <footer>
-            <p>This is a footer</p>
+            <p> Contact : he@mare5.com </p>
         </footer>
-
+        <script> // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => { navigator.serviceWorker.register('/service-worker.js'); });
+        }
+        </script>
     </body>
 </html>
